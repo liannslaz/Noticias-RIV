@@ -9,7 +9,7 @@ futuro, NO hay que tocar el bot ni el generador de imágenes:
 
     1. Coloca el archivo de imagen en plantillas/plantillaN.png
     2. Copia el bloque "plantilla1" de aquí abajo, cámbiale la clave
-a "plantilla2" y ajusta las coordenadas a la nueva plantilla.
+       a "plantilla2" y ajusta las coordenadas a la nueva plantilla.
     3. Listo. El comando "!crear noticia-plantilla2" funcionará solo,
        porque main.py busca la plantilla en este diccionario.
 
@@ -25,7 +25,7 @@ PLANTILLAS_DIR = os.path.join(BASE_DIR, "plantillas")
 
 # Color de fondo real de la plantilla (blanco ligeramente hueso).
 # Se usa para "borrar" los textos de ejemplo antes de escribir los
-datos reales, sin dejar residuos del texto de muestra.
+# datos reales, sin dejar residuos del texto de muestra.
 _BG_COLOR = (249, 250, 250)
 
 TEMPLATES = {
